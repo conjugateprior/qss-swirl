@@ -6,7 +6,7 @@
 # UNpop <- read.csv("UNpop.csv", head = T)
 # world.pop <- UNpop$world.pop
 
-swirl_options(swirl_logging = TRUE)
+# swirl_options(swirl_logging = TRUE)
 
 year <- seq(from = 1950, to = 2010, by = 10)
 world.pop <- c(2525779, 3026003, 3691173, 4449049, 5320817, 6127700, 6916183)
