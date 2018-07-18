@@ -74,7 +74,7 @@
 - Class: cmd_question
   Output: 'Looking at the summary statistics, what is the mean number of years of education among the respondents?'
   CorrectAnswer: mean(afghan$educ.years)
-  AnswerTests: omnitest(correctExpr='mean(afghan$educ.years)')
+  AnswerTests: omnitest(correctExpr='mean(afghan$educ.years)', 4.0021786492374724)
   Hint: See 'Measuring Civilian Victimization during Wartime'
 
 # Question 9
